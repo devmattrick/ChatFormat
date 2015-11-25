@@ -8,7 +8,7 @@ var minifyCss = require('gulp-minify-css');
 
 gulp.task('clean', function() {
 	gutil.log('Cleaning dist folder...');
-    return del(['dist']);
+    return del(['dist/css', 'dist/img']);
 });
  
 gulp.task('concat', ['clean'], function() {

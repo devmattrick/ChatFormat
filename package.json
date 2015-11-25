@@ -1,7 +1,7 @@
 {
   "name": "chatformat",
   "version": "1.0.0",
-  "description": "A awesome chat formatter!",
+  "description": "An awesome chat formatter!",
   "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,11 +17,11 @@
     "telegram"
   ],
   "author": "mattrick",
-  "license": "ISC",
+  "license": "",
   "bugs": {
     "url": "https://github.com/mattrick16/ChatFormat/issues"
   },
-  "homepage": "https://github.com/mattrick16/ChatFormat#readme",
+  "homepage": "https://chatformat.com",
   "devDependencies": {
     "del": "^2.1.0",
     "gulp": "^3.9.0",

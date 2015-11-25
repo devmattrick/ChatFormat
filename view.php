@@ -90,7 +90,7 @@ $returned_log = json_decode($returned_json, true);
 
 	</div>
 	<script async type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script async type="text/javascript" src="zeroclipboard/dist/ZeroClipboard.min.js"></script>
+	<script async type="text/javascript" src="dist/js/ZeroClipboard.min.js"></script>
 	<script type="text/javascript">
 		var client = new ZeroClipboard($("#copy-button"));
 		client.on( "copy", function (event) {
