@@ -1,0 +1,81 @@
+body.telegram {
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-weight: normal;
+}
+body.telegram .page-wrap {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+body.telegram .message {
+    position: relative;
+    padding: 8px 16px;
+    background: #FFFFFF;
+    border-bottom: 2px solid #BBBEC8;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    min-height: 22px;
+    max-width: 645px;
+    text-align: left;
+    margin-bottom: 9px;
+}
+body.telegram .message .image {
+    border-left: 3px solid #2FA9E2;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+body.telegram .message .image img {
+    border-radius: 3px;
+    padding-left: 3px;
+    max-width: 100%;
+}
+body.telegram .message.first {
+    background: #EFFDDE;
+    border-bottom-color: #85B3A2;
+    margin-left: auto;
+    margin-right: 0;
+}
+body.telegram .message.first .image {
+    border-left-color: #5DC452;
+}
+body.telegram .chat-section {
+    width: auto;
+    margin: 45px auto;
+    text-align: left;
+    display: inline-block;
+}
+body.telegram .author {
+    font-weight: 600;  
+    font-size: 1.1em;
+    margin-bottom: 4px;
+}
+body.telegram .time {
+    text-align: right;
+    color: #A0ACB6;
+}
+body.telegram .message.first .time {
+    color: #6CC264;
+}
+
+/* Author colors */
+.red {
+    color: #C03D5B;
+}
+.orange {
+    color: #CE671B;
+}
+.yellow {
+    color: #D09306;
+}
+.green {
+    color: #4FAD2D;
+}
+.aqua {
+    color: #2996AD;
+}
+.purple {
+    color: #8544D6;
+}

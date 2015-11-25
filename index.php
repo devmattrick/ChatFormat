@@ -2,7 +2,7 @@
 <head>
 	<title>ChatFormat</title>
 
-	<link rel="stylesheet" type="text/css" href="https://chatformat.com/style/style.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
